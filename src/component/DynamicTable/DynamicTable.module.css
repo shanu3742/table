@@ -1,0 +1,42 @@
+
+.table-container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+	width: 80%;
+	border: 1px solid gray;
+}
+
+.table-header {
+	
+	background: rgb(59, 59, 59);
+    font-weight: bold;
+
+
+}
+.navigation{
+    width: 80%;
+    border: 1px solid gray;
+    min-height: 2em;
+    max-height:2em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navigationButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.td-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
