@@ -1,14 +1,19 @@
 
+html{
+    font-size: 5px;
+    /* background-color: rgb(243, 206, 138) */
+}
 .table-container{
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .table {
-	width: 80%;
+	width: 100%;
 	border: 1px solid gray;
 }
 
@@ -20,7 +25,7 @@
 
 }
 .navigation{
-    width: 80%;
+    width: 100%;
     border: 1px solid gray;
     min-height: 2em;
     max-height:2em ;
@@ -39,4 +44,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.table-search__container{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    max-height: 10vh;
+    min-height: 10vh;
+}
+.table-search__container:first-child{
+    margin-left: 1em;
+}
+
+.table-search__container>form{
+    margin-right: 1em;
+}
+
+[title='search employee']{
+    outline: none;
+    min-height: 35px;
+}
+[title='search employee']::placeholder{
+    font-size: 0.5em;
+}
+
+.table-search__container>form>button{
+    min-height: 40px;
+}
+
+
+.updateDetails-container{
+    width: 80%;
+    /* background-color: lightgreen; */
+    margin: auto auto;
+
+}
+.updateDetails-container-label{
+    width: 20%;
+    height: 20px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.updateDetails-container-inputbox{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    border: 1px solid gray;
+
+}
+.updateDetails-container-inputbox>input{
+    width: 80%;
+    outline: none;
+    border: none;
 }
